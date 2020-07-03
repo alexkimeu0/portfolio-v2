@@ -35,22 +35,22 @@ class Home extends React.Component {
             <p>Find me online:</p>
 
             <div className="social-icons">
-              <a href="">
+              <a href="!#">
                 <i className="fab fa-github fa-3x"></i>{" "}
               </a>
-              <a href="">
+              <a href="!#">
                 <i className="fab fa-twitter fa-3x"></i>{" "}
               </a>
-              <a href="">
+              <a href="!#">
                 <i className="fab fa-linkedin fa-3x"></i>{" "}
               </a>
-              <a href="">
+              <a href="!#">
                 <i className="fab fa-medium fa-3x"></i>{" "}
               </a>
-              <a href="">
+              <a href="!#">
                 <i className="fab fa-reddit fa-3x"></i>{" "}
               </a>
-              <a href="">
+              <a href="!#">
                 <i className="fab fa-discord fa-3x"></i>{" "}
               </a>
             </div>
