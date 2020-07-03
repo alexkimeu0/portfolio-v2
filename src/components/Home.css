@@ -1,0 +1,55 @@
+.content {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 3rem;
+  text-align: center;
+}
+
+.profile .name {
+  margin: 0.5rem;
+}
+
+img {
+  border-radius: 50%;
+  height: 17rem;
+  width: 17rem;
+}
+
+.intro {
+  width: 100%;
+  padding-left: 3rem;
+  line-height: 1.5rem;
+  border-left: 1px solid #3b3b98;
+  text-align: center;
+}
+
+.salut {
+}
+
+.hobbies {
+  margin: 1rem 0;
+}
+
+.social {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 2rem 0;
+  line-height: 1.5rem;
+}
+
+.social-icons {
+  margin: 1rem 0;
+}
+
+.social-icons a {
+  margin: 0 0.2rem;
+}
