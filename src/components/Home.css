@@ -1,7 +1,9 @@
 .content {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
   justify-content: center;
-  padding: 2rem;
+  grid-gap: 1rem;
+  padding: 2rem 0;
 }
 
 .profile {
@@ -9,12 +11,12 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-right: 3rem;
   text-align: center;
+  margin: 3rem;
 }
 
 .profile .name {
-  margin: 0.5rem;
+  margin: 1rem 0 0.5rem 0;
 }
 
 img {
@@ -25,7 +27,7 @@ img {
 
 .intro {
   width: 100%;
-  padding-left: 3rem;
+  padding: 0 3rem;
   line-height: 1.5rem;
   border-left: 1px solid #3b3b98;
   text-align: center;

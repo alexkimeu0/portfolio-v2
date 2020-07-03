@@ -1,13 +1,15 @@
 import React from "react";
 
-class Contact extends React.Component {
-  render() {
-    return (
-      <div className="container">
-        <h1>Contact Page!</h1>
-      </div>
-    );
-  }
-}
+import "./Contact.css";
+
+const Contact = () => {
+  return (
+    <div className="content">
+      <a href="mailto:kimeualexis@gmail.com" className="btn">
+        <i className="fas fa-paper-plane"></i>&nbsp;Email
+      </a>
+    </div>
+  );
+};
 
 export default Contact;

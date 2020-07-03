@@ -6,7 +6,7 @@ class Home extends React.Component {
   state = {
     name: "Alex Kimeu",
     photo:
-      "https://pbs.twimg.com/profile_images/1273283696255172612/H-iVmfFA_400x400.jpg",
+      "https://pbs.twimg.com/profile_images/1278987379060195328/XAP8TklK_400x400.jpg",
     intro:
       "I am a Full-Stack Web Developer working mostly with the MERN Stack. I have experience in REST APIs and Git version control. I also possess working experience in Django and Laravel Frameworks as well as MySQL Database.",
     hobbies: "playing or watching football",
