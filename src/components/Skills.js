@@ -7,19 +7,42 @@ import "./Skills.css";
 class Skills extends React.Component {
   state = {
     skills: [
-      "html5",
-      "js",
-      "laravel",
-      "css3",
-      "react",
-      "python",
-      "bootstrap",
-      "node",
-      "git",
-      "db",
-      "redux",
-      "express",
-      "apis",
+      {
+        name: "html5",
+        description: "HTML5",
+      },
+      {
+        name: "js",
+        description: "JavaScript, ES6",
+      },
+      {
+        name: "laravel",
+        description: "Laravel PHP Framework",
+      },
+      {
+        name: "css3",
+        description: "CSS3",
+      },
+      {
+        name: "react",
+        description: "React & Redux.",
+      },
+      {
+        name: "python",
+        description: "Python & Django.",
+      },
+      {
+        name: "bootstrap",
+        description: "Bootstrap.",
+      },
+      {
+        name: "node",
+        description: "Node, Express, APIs.",
+      },
+      {
+        name: "git",
+        description: "Git version control & Github.",
+      },
     ],
   };
 
@@ -31,7 +54,12 @@ class Skills extends React.Component {
     });
   };
   render() {
-    return <div className="skills-content">{this.skill()}</div>;
+    return (
+      <div className="about-content">
+        <p className="about">Here are some of my Technical skills:</p>
+        <div className="skills-content">{this.skill()}</div>
+      </div>
+    );
   }
 }
 

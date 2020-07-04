@@ -1,5 +1,6 @@
-.content {
+.quotes-content {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -11,8 +12,17 @@
   border-radius: 1rem;
   padding: 2rem;
   margin: 2rem;
+  color: #000000;
 }
 
 #text {
   margin: 0.5rem 0;
+}
+
+.btn {
+  cursor: pointer;
+}
+
+.icons {
+  margin-top: 1rem;
 }

@@ -47,19 +47,30 @@ class Quotes extends React.Component {
 
     const tweetURL = `https://twitter.com/intent/tweet?text=${quote.quote} ~ ${quote.author}`;
     return (
-      <div className="content">
+      <div className="quotes-content">
+        <p className="about">
+          Random Quotes generated from the{" "}
+          <a href="https://www.freecodecamp.org/">FreeCodeCamp</a> open source
+          Quotes API. Click on the Twitter button to share your favorite quote
+          on Twitter & the random button to generate random quote.
+        </p>
         {quote && (
           <div className="quote">
             <i class="fa fa-quote-left fa-3x"> </i> &nbsp;
             <p id="text">{quote.quote}</p>
             <cite className="author">~ {quote.author}</cite>
             <div className="icons">
-              <a href={tweetURL} target="_blank" class="btn" id="tweet-quote">
+              <a
+                href={tweetURL}
+                target="_blank"
+                className="btn"
+                id="tweet-quote"
+              >
                 <i className="fab fa-twitter"></i>
               </a>
-              <button className="btn" onClick={this.getRandomIndex}>
+              <a className="btn" onClick={this.getRandomIndex}>
                 <i className="fas fa-random"></i>
-              </button>
+              </a>
             </div>
           </div>
         )}

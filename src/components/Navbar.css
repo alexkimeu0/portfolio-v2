@@ -4,6 +4,19 @@ nav {
   align-items: center;
 }
 
+nav .logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+}
+
+nav img {
+  height: 30px;
+  width: 30px;
+}
+
 ul {
   display: flex;
   justify-content: center;
@@ -11,10 +24,12 @@ ul {
   list-style: none;
 }
 
-li {
+nav li {
   margin: 0 1rem;
 }
 
 a {
   text-decoration: none;
+  color: #2fc1c9;
+  font-weight: bold;
 }

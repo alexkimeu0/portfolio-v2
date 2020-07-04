@@ -8,7 +8,6 @@ import Home from "./components/Home";
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import Quotes from "./components/Quotes";
-import Contact from "./components/Contact";
 
 class App extends React.Component {
   render() {
@@ -22,7 +21,6 @@ class App extends React.Component {
             <Route path="/skills" exact component={Skills} />
             <Route path="/projects" exact component={Projects} />
             <Route path="/quotes" exact component={Quotes} />
-            <Route path="/contact" exact component={Contact} />
           </div>
         </div>
       </Router>

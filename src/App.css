@@ -5,8 +5,10 @@
 }
 
 body {
-  background-color: #f5f6fa;
+  background-color: #2b2027;
   padding: 2rem;
+  color: #ecf0f1;
+  font-family: "Open Sans", sans-serif;
 }
 
 .container {
@@ -16,5 +18,28 @@ body {
 }
 
 .main-content {
-  border: 1px solid #3b3b98;
+  border: 1px solid #2fc1c9;
+  height: 84vh;
+  max-height: 94vh;
+}
+
+.about {
+  padding: 0 15rem;
+  line-height: 1.5rem;
+}
+
+.card {
+  padding: 1rem;
+  background-color: #ecf0f1;
+  color: #000000;
+  border-radius: 1rem;
+}
+
+.card img {
+  height: 8rem;
+  width: 8rem;
+}
+
+.card .title {
+  margin: 0.2rem;
 }
