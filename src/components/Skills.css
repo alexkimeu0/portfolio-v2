@@ -12,3 +12,15 @@
   padding-top: 1rem;
   text-align: center;
 }
+
+@media (max-width: 870px) {
+  .skills-content {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 500px) {
+  .skills-content {
+    grid-template-columns: 1fr;
+  }
+}
